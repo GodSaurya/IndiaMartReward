@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Rewards Bazaar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="partner1.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Indian Rewards Bazaar</div>
+        <button class="hamburger" onclick="toggleMenu()">
+            ☰
+        </button>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rewards">Rewards</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="scrolling-header">
+            <h3>Follow IndiaMart On Instagram</h3>
+        </div>        
+        <h1>स्वागत है - Indian Rewards Bazaar</h1>
+        <p>Your destination for exclusive, authentic rewards.</p>
+        <a href="https://indiamartreward.blogspot.com/"><button class="cta-btn" onclick="scrollToRewards()">Explore Now</button></a>
+    </header>
+    
+    <!-- Rewards Section -->
+    <section id="rewards" class="rewards-section">
+        <h2>Featured Rewards</h2>
+        <div class="rewards-container">
+            <div class="reward-card">
+                <img src="gold.png" alt="Gold Coin">
+                <h3>Gold Coins</h3>
+                <p>Win pure gold coins to celebrate your success!</p>
+               <a href="https://indiamartreward.blogspot.com/"><button class="reward-btn">Claim Now</button></a>
+            </div>
+            <div class="reward-card">
+                <img src="saree.jpg" alt="Traditional Saree">
+                <h3>Silk Sarees</h3>
+                <p>Claim premium sarees perfect for any festival.</p>
+                <a href="https://indiamartreward.blogspot.com/"><button class="reward-btn">Claim Now</button></a>
+            </div>
+            <div class="reward-card">
+                <img src="gift.jpg" alt="Festive Voucher">
+                <h3>Festive Vouchers</h3>
+                <p>Shop for Diwali, Holi, and more with exclusive discounts!</p>
+                <a href="https://indiamartreward.blogspot.com/"><button class="reward-btn">Claim Now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Our Users Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <p>"I received my gold coin just in time for Diwali! Amazing service and genuine rewards."</p>
+                <h4>- Arjun Verma</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"The silk saree was top-notch quality. Perfect for the festive season!"</p>
+                <h4>- Kavita Sharma</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"The festive vouchers helped me save big on shopping. Thank you!"</p>
+                <h4>- Ramesh Gupta</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners-section">
+        <h2>Trusted Partners</h2>
+        <div class="partners-container">
+            <img src="partner1.jpg" alt="Partner 1">
+            <img src="partner2.jpg" alt="Partner 2">
+            <img src="partner3.jpg" alt="Partner 3">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Indian Rewards Bazaar. Made with ❤️ in India. Powered by IndiaMart</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
